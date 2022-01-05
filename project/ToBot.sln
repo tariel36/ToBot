@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToBot", "ToBot\ToBot.csproj", "{02B863FD-B8F4-4E40-B83F-FC9CF0273502}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToBot.Rss", "ToBot.Rss\ToBot.Rss.csproj", "{4CD421D5-4F02-4D74-AC70-901A178FED84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToBot.Plugins", "ToBot.Plugins", "{A42C9B3A-3474-43EB-B38E-14F6716D3C9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToBot.Plugins.Specific", "ToBot.Plugins.Specific", "{20E6DA88-DA77-4B25-BB4B-FC86E4D92BF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToBot.Plugins.Common", "ToBot.Plugins.Common", "{8354CA5A-12CB-4E23-8120-46C00B66A7DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToBot.Plugin", "ToBot.Plugins\ToBot.Plugins.Common\ToBot.Plugin\ToBot.Plugin.csproj", "{76C297C5-705C-47DE-80CB-E5A0AFD35602}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToBot.Common", "ToBot.Common\ToBot.Common.csproj", "{A4DBC7CB-1D81-4F10-BFC5-17A358828D2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToBot.Data", "ToBot.Data\ToBot.Data.csproj", "{7531B5DA-E078-44E1-B4DE-A83F47A82D70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToBot.Communication", "ToBot.Communication\ToBot.Communication.csproj", "{B77F8181-E5FC-4941-A736-0F1A836DBA16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToBot.Testing", "ToBot.Testing", "{12A0F041-42F9-4439-83C1-381BCEFB9310}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToBot.Tests.Core", "ToBot.Testing\ToBot.Tests.Core\ToBot.Tests.Core.csproj", "{7AF0531E-EFA3-4B8E-BAB7-07BFDF66A7F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToBot.Plugin.GenericRssPlugin", "ToBot.Plugins\ToBot.Plugins.Specific\ToBot.Plugin.GenericRssPlugin\ToBot.Plugin.GenericRssPlugin.csproj", "{7C5EBF91-E389-4037-8569-9ED564B2FD75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToBot.Plugin.GenericScrapperPlugin", "ToBot.Plugins\ToBot.Plugins.Specific\ToBot.Plugin.GenericScrapperPlugin\ToBot.Plugin.GenericScrapperPlugin.csproj", "{3DC69856-4EB9-4586-BAA8-F29F77CCD607}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02B863FD-B8F4-4E40-B83F-FC9CF0273502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B863FD-B8F4-4E40-B83F-FC9CF0273502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B863FD-B8F4-4E40-B83F-FC9CF0273502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B863FD-B8F4-4E40-B83F-FC9CF0273502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD421D5-4F02-4D74-AC70-901A178FED84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD421D5-4F02-4D74-AC70-901A178FED84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD421D5-4F02-4D74-AC70-901A178FED84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD421D5-4F02-4D74-AC70-901A178FED84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C297C5-705C-47DE-80CB-E5A0AFD35602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C297C5-705C-47DE-80CB-E5A0AFD35602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C297C5-705C-47DE-80CB-E5A0AFD35602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C297C5-705C-47DE-80CB-E5A0AFD35602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4DBC7CB-1D81-4F10-BFC5-17A358828D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DBC7CB-1D81-4F10-BFC5-17A358828D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4DBC7CB-1D81-4F10-BFC5-17A358828D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DBC7CB-1D81-4F10-BFC5-17A358828D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7531B5DA-E078-44E1-B4DE-A83F47A82D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7531B5DA-E078-44E1-B4DE-A83F47A82D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7531B5DA-E078-44E1-B4DE-A83F47A82D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7531B5DA-E078-44E1-B4DE-A83F47A82D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77F8181-E5FC-4941-A736-0F1A836DBA16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77F8181-E5FC-4941-A736-0F1A836DBA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77F8181-E5FC-4941-A736-0F1A836DBA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77F8181-E5FC-4941-A736-0F1A836DBA16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AF0531E-EFA3-4B8E-BAB7-07BFDF66A7F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF0531E-EFA3-4B8E-BAB7-07BFDF66A7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF0531E-EFA3-4B8E-BAB7-07BFDF66A7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF0531E-EFA3-4B8E-BAB7-07BFDF66A7F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5EBF91-E389-4037-8569-9ED564B2FD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5EBF91-E389-4037-8569-9ED564B2FD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5EBF91-E389-4037-8569-9ED564B2FD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5EBF91-E389-4037-8569-9ED564B2FD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC69856-4EB9-4586-BAA8-F29F77CCD607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC69856-4EB9-4586-BAA8-F29F77CCD607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC69856-4EB9-4586-BAA8-F29F77CCD607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC69856-4EB9-4586-BAA8-F29F77CCD607}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20E6DA88-DA77-4B25-BB4B-FC86E4D92BF1} = {A42C9B3A-3474-43EB-B38E-14F6716D3C9D}
+		{8354CA5A-12CB-4E23-8120-46C00B66A7DD} = {A42C9B3A-3474-43EB-B38E-14F6716D3C9D}
+		{76C297C5-705C-47DE-80CB-E5A0AFD35602} = {8354CA5A-12CB-4E23-8120-46C00B66A7DD}
+		{7AF0531E-EFA3-4B8E-BAB7-07BFDF66A7F9} = {12A0F041-42F9-4439-83C1-381BCEFB9310}
+		{7C5EBF91-E389-4037-8569-9ED564B2FD75} = {20E6DA88-DA77-4B25-BB4B-FC86E4D92BF1}
+		{3DC69856-4EB9-4586-BAA8-F29F77CCD607} = {20E6DA88-DA77-4B25-BB4B-FC86E4D92BF1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F1E1375-C539-438C-8A3A-B2AC37DF5819}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors />
+    <Company />
+    <Product>ToBot</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.2.1" />
+    <PackageReference Include="System.Runtime.Loader" Version="4.0.0-*" />
+    <PackageReference Include="DSharpPlus" Version="3.2.3" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="3.2.3" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="3.2.3" />
+    <PackageReference Include="LiteDB" Version="4.1.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0-preview.3.21201.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0-preview.3.21201.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0-preview.3.21201.4" />
+    <PackageReference Include="Topshelf" Version="4.3.1-develop.253" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToBot.Common\ToBot.Common.csproj" />
+    <ProjectReference Include="..\ToBot.Communication\ToBot.Communication.csproj" />
+    <ProjectReference Include="..\ToBot.Plugins\ToBot.Plugins.Common\ToBot.Plugin\ToBot.Plugin.csproj" />
+    <ProjectReference Include="..\ToBot.Plugins\ToBot.Plugins.Specific\ToBot.Plugin.GenericRssPlugin\ToBot.Plugin.GenericRssPlugin.csproj" />
+    <ProjectReference Include="..\ToBot.Plugins\ToBot.Plugins.Specific\ToBot.Plugin.GenericScrapperPlugin\ToBot.Plugin.GenericScrapperPlugin.csproj" />
+    <ProjectReference Include="..\ToBot.Rss\ToBot.Rss.csproj" />
+  </ItemGroup>
+
+</Project>

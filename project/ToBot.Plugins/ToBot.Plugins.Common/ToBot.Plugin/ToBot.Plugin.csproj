@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ToBot.Common\ToBot.Common.csproj" />
+    <ProjectReference Include="..\..\..\ToBot.Communication\ToBot.Communication.csproj" />
+    <ProjectReference Include="..\..\..\ToBot.Data\ToBot.Data.csproj" />
+  </ItemGroup>
+
+</Project>

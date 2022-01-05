@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ToBot.Common\ToBot.Common.csproj" />
+    <ProjectReference Include="..\..\..\ToBot.Communication\ToBot.Communication.csproj" />
+    <ProjectReference Include="..\..\..\ToBot.Data\ToBot.Data.csproj" />
+    <ProjectReference Include="..\..\..\ToBot.Rss\ToBot.Rss.csproj" />
+    <ProjectReference Include="..\..\ToBot.Plugins.Common\ToBot.Plugin\ToBot.Plugin.csproj" />
+  </ItemGroup>
+
+</Project>
