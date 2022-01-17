@@ -191,8 +191,8 @@ namespace ToBot.Plugin.GenericRssPlugin
 
                 foreach (TRssEntry entry in newEntriesResult.Entries)
                 {
-                    sb.AppendLine($"{entry.Title}{(AppendColonToTitle ? ":" : string.Empty)}")
-                        .AppendLine(MessageFormatter.NoEmbed(entry.Link));
+                    sb.AppendLine($"{entry.Title.Trim()}{(AppendColonToTitle ? ":" : string.Empty)}")
+                        .AppendLine(MessageFormatter.NoEmbed(entry.Link.Trim()));
                 }
 
                 if (newEntriesResult.IsAllNew)
