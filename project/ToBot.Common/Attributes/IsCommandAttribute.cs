@@ -32,6 +32,18 @@ namespace ToBot.Common.Attributes
             Arguments = new Argument[0];
         }
 
+        /// <summary>
+        /// <para>Initializes a new instance of the <see cref="IsCommandAttribute"/> class.</para>
+        /// <para>The <paramref name="args"/> parameter contains arguments of the command.
+        /// Each argument is separate entry in the array. Each parameter has multiple components,
+        /// separated by semicolon (;). Optional components are within [] bracers. Each argument has following format:</para>
+        /// <para>[isParams;]typename;argName[;defaultValue]</para>
+        /// <para>So for example:</para>
+        /// <para>isParams;string[];args;null</para>
+        /// <para>string;name;null</para>
+        /// <para>string;surname</para>
+        /// </summary>
+        /// <param name="args">Command arguments.</param>
         public IsCommandAttribute(string[] args)
         {
             Arguments = args.Select(x =>
