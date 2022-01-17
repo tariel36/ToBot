@@ -137,6 +137,7 @@ With all that, you're done. You can now compile your plugin and put its `.dll` f
 * PPE - https://github.com/tariel36/ToBot_Plugin_PpePl
 
 ## This project uses following libraries:
+* [DSharpPlus](https://github.com/DSharpPlus/DSharpPlus);
 * [TopShelf](http://topshelf-project.com/);
 * [Json.NET](https://www.newtonsoft.com/json);
 * [CodeHollow.FeedReader](https://github.com/arminreiter/FeedReader/);
